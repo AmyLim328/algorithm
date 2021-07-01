@@ -9,8 +9,6 @@ public class Main {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Input number : ");
-
 		int A = sc.nextInt();
 		int B = sc.nextInt();
 		int C = sc.nextInt();
