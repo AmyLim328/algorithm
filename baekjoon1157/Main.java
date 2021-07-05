@@ -8,13 +8,13 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 
-		String word = sc.next().toUpperCase(); // ´ë¹®ÀÚ Ãâ·Â
+		String word = sc.next().toUpperCase(); // ëŒ€ë¬¸ì ì¶œë ¥
 		int[] alphabet = new int[26]; // A ~ Z
 
 		for (int i = 0; i < word.length(); i++) {
 			alphabet[word.charAt(i) - 'A']++;
 			// int[] alphabet = {0, 0, 0, 0, 0 .......};
-			// A¸é ÀÎµ¦½º 0ÀÇ °ª Áõ°¡ B¸é ÀÎµ¦½º 1ÀÇ °ª Áõ°¡ C¸é ÀÎµ¦½º 2ÀÇ °ª Áõ°¡
+			// Aë©´ ì¸ë±ìŠ¤ 0ì˜ ê°’ ì¦ê°€ Bë©´ ì¸ë±ìŠ¤ 1ì˜ ê°’ ì¦ê°€ Cë©´ ì¸ë±ìŠ¤ 2ì˜ ê°’ ì¦ê°€
 		}
 
 		int max = 0;
