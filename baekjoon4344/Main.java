@@ -14,8 +14,6 @@ public class Main {
 
 			int sum = 0;
 			int cnt = 0;
-			double avg;
-			double res;
 
 			int array_length = sc.nextInt();
 			int[] score = new int[array_length];
@@ -26,14 +24,14 @@ public class Main {
 			for (int k = 0; k < array_length; k++) {
 				sum += score[k];
 			}
-			avg = (double) sum / array_length;
+			double avg = (double) sum / array_length;
 
 			for (int l = 0; l < array_length; l++) {
 				if (score[l] > avg) {
 					cnt++;
 				}
 			}
-			res = (((double) cnt / array_length) * 100);
+			double res = (((double) cnt / array_length) * 100);
 			System.out.printf("%.3f%%\n", res);
 		}
 
