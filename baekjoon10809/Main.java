@@ -8,12 +8,12 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 
-		String S = sc.next();
+		String s = sc.next();
 		int[] res = new int[26];
 		int letter = 'a';
 
 		for (int i = 0; i < res.length; i++) {
-			res[i] = S.indexOf(letter);
+			res[i] = s.indexOf(letter);
 			letter++;
 		}
 		for (int i = 0; i < res.length; i++) {
