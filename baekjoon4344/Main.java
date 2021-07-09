@@ -8,9 +8,9 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 
-		int C = sc.nextInt();
+		int c = sc.nextInt();
 
-		for (int i = 0; i < C; i++) {
+		for (int i = 0; i < c; i++) {
 
 			int sum = 0;
 			int cnt = 0;
