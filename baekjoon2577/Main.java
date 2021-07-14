@@ -15,7 +15,7 @@ public class Main {
 
 		int mul = a * b * c;
 
-		int[] cnt = new int[10]; // 0 ~ 9
+		int[] cnt = new int[10];
 		for (int i = 0; i < String.valueOf(mul).length(); i++) {
 			cnt[String.valueOf(mul).charAt(i) - '0']++;
 		}
