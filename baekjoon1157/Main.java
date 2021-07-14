@@ -10,7 +10,6 @@ public class Main {
 
 		String word = sc.next().toUpperCase();
 		int[] alphabet = new int[26];
-
 		for (int i = 0; i < word.length(); i++) {
 			alphabet[word.charAt(i) - 'A']++;
 		}
@@ -23,13 +22,14 @@ public class Main {
 				idx = i;
 			}
 		}
+		
 		char res = (char) (idx + 'A');
-
 		for (int i = 0; i < alphabet.length; i++) {
 			if (max == alphabet[i] && idx != i) {
 				res = '?';
 			}
 		}
 		System.out.println(res);
+		
 	}
 }
